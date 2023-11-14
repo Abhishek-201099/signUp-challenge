@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <SignUpPage />,
       },
       {
-        path: "/signup-success",
+        path: "/signup-success/:emailId",
         element: <SignUpSuccessPage />,
       },
     ],
