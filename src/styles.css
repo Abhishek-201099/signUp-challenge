@@ -68,3 +68,14 @@ body {
   color: var(--color-grey-medium);
   line-height: 1;
 }
+
+/* PAGE CONTAINER */
+
+.container {
+  background-color: var(--color-grey-medium);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
